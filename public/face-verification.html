@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Verification</title>
+    <link rel="stylesheet" href="styles/face.css">
+    <script src="qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Facial Verification</h2>
+        <video id="videoPreview" autoplay></video>
+        <button id="capture-btn">Capture Face</button>
+        <canvas id="canvas" style="display: none;"></canvas>
+        <button id="generate-qr">Generate Pre-Verification Card</button>
+        <div id="qrcode"></div>
+        <div id="qr-result"></div>
+    </div>
+    <script type="module" src="./scripts/verification.js"></script>
+</body>
+</html>

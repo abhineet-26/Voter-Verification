@@ -1,0 +1,24 @@
+  button {
+    position: relative;
+    top: 400px;
+    left: 660px;
+    background-color: #885ebd;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 25%;
+    font-size: larger;
+  }
+  
+  button:hover {
+    background-color: #661599;
+  }
+  body{
+
+    background-image: url("image/Election\ India1.png");
+    background-size: 1550px 750px; 
+    background-repeat: no-repeat;
+}
+  

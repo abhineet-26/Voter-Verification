@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Voter Verification</title>
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+    <div class="container">
+        <form id="phone-auth-form">
+            <input type="tel" id="phone" placeholder="Enter phone number with country code" required>
+            <div id="recaptcha-container"></div>
+            <button id="send-otp">Send OTP</button>
+        </form>
+        <div id="error-message" class="error"></div>
+    </div>
+    <script type="module" src="/scripts/auth.js"></script>
+</body>
+</html>

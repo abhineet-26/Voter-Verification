@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify OTP - Voter Verification</title>
+    <link rel="stylesheet" href="styles/verify.css">
+</head>
+<body>
+    <div class="container">
+        <form id="otp-verify-form">
+            <input type="number" id="otp" placeholder="Enter 6-digit OTP" required>
+            <button type="submit" class="btn">Verify OTP</button>
+        </form>
+        <div id="error-message" class="error"></div>
+    </div>
+    <script type="module" src="/scripts/auth.js"></script>
+</body>
+</html>

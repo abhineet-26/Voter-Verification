@@ -1,0 +1,9 @@
+{
+  "name": "voterverification",
+  "version": "1.0.0",
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.9.3",
+    "firebase": "^11.5.0",
+    "qrcode": "^1.5.3"
+  }
+}

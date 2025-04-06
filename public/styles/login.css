@@ -1,0 +1,42 @@
+input[type="tel"] {
+    position:absolute;
+    left: 970px;
+    top: 330px;
+    width: 20%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    position:absolute;
+    left: 985px;
+    top: 400px;
+    width: 20%;
+    height: 30px;
+    background-color: #dba3e8;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c578cc;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  
+  body{
+  
+      background-image: url("image/Election India2.png");
+      background-size: 1550px 750px; 
+      background-repeat: no-repeat;
+  }
